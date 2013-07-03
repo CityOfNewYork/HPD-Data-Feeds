@@ -6,12 +6,15 @@ Please note that HPD's information sets are generally large. The information fil
 Note that public data sets made available on the web portal are provided for informational purposes. The City of New York does not warranty the completeness, accuracy, content or fitness for any particular purpose or use of any public data set made available on the web portal, nor are any such warranties to be implied or inferred with respect to the public data sets furnished therein. The City of New York is not liable for any deficiencies in the completeness, accuracy, content or fitness for any particular purpose or use of any public data set, or application utilizing such data set, provided by any third party.
 </p>
 
+<h1>Import The Library</h1>
+
 <b>To use the included Python Library, you must first import it:</b><br />
 <code>import HPD</code>
 
 If the library fails to import, make sure python is set to search the directory that the file is located in. Then restart python and try again.
 
 
+<h1>Creating the HPD Object</h1>
 
 <b>Creating a HPD object and setting the API Key/ID:</b><br />
 <code>myobj = HPD.HPD('API ID' , 'API Key') </code>
